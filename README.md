@@ -1,29 +1,41 @@
-# vue-test
+# Vue Jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+This project was developed to learn the basics of Vue, following this [tutorial](https://www.youtube.com/watch?v=VeNfHj6MhgA).
 
-## Recommended IDE Setup
+In this project, a list of Vue developer jobs is developed, using the most basic features of Vue, such as `ref` or 
+`reactive`. It uses JSON Server to perform CRUD operations.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Try the project
 
-## Customize configuration
+First, clone this repository into your computer with the following command:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Linux and Mac
+```sh
+git clone git@github.com:jcasben/vue-jobs.git
+```
 
-## Project Setup
+### Windows
+````sh
+git clone https://github.com/jcasben/vue-jobs.git
+````
 
+## Run the project
+
+First, execute this command to install the necessary dependencies:
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Then, execute this command to run the JSON Server:
+
+```sh
+npm run server
+```
+
+and then this to run the application:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+The application should be running on http://localhost:3333.
